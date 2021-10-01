@@ -22,8 +22,6 @@ public class ModelProducto {
     @Column(name = "descripcion", nullable = false, length = 100)
     private String descripcionProducto;
 
-    @NotNull
-    @NotBlank
     @Column(name = "precio", nullable = false)
     private double precioProducto;
 
